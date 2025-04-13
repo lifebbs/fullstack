@@ -11,7 +11,7 @@ const Part = (props) => {
   )
 }
 const Content = (props) => {
-  const parts = props.parts.map((part, i) => <Part part={part} key={i}/>);
+  const parts = props.parts.map((part, i) => <Part part={part} key={i}/>)
   return (
     <div>
       {parts}
